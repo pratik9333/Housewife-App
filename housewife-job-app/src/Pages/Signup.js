@@ -16,7 +16,7 @@ export default function Signup() {
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" placeholder="name" name="name" />
             </Form.Group>
-            <Form.Group controlId="fromEmail">
+            <Form.Group controlId="fromEmail" className="mt-3">
               <Form.Label>Phone No</Form.Label>
               <Form.Control
                 type="number"
@@ -41,7 +41,7 @@ export default function Signup() {
               />
             </Form.Group>
             <Form.Group controlId="fromPassword" className="mt-3">
-              <Form.Label>Password</Form.Label>
+              <Form.Label>Confirm Password</Form.Label>
               <Form.Control
                 type="password"
                 placeholder="password"
@@ -49,7 +49,7 @@ export default function Signup() {
               />
             </Form.Group>
             <Button variant="primary" type="submit" className="mt-3">
-              Login
+              Signup
             </Button>
           </Form>
         </Card.Body>

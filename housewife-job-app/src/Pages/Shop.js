@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import IMG from "../Images/IMG.jpeg";
+import teaching from "../Images/teaching.jpg";
+import handcrafts from "../Images/handcrafts.jpg";
 
 const Shop = () => {
   return (
@@ -16,19 +17,21 @@ const Shop = () => {
         }}
       >
         <Card style={{ width: "18rem", borderWidth: 1, borderStyle: "solid" }}>
-          <Card.Img variant="top" src={IMG} style={{ width: "100%" }} />
+          <Card.Img variant="top" src={teaching} style={{ width: "100%" }} />
           <Card.Body style={{ textAlign: "center" }}>
-            <Card.Title style={{ color: "Red" }}>
-              Kashmiri HandCrafts
-            </Card.Title>
+            <Card.Title style={{ color: "Red" }}>Pradnya Classes</Card.Title>
             <Card.Text>
-              Responsibilities: Design beautiful kashmir style HandCrafts
+              Responsibilities: Receptionist
               <br />
-              Location: Bangalore
+              Requirements : 12th pass, Fluency in Hindi and Marathi Language
               <br />
-              Date posted: 1 Oct,2021
+              Timings: Evening,6-9
               <br />
-              Contact: kashmirhandcrafts@gmail.com
+              Location: Mumbai,Mulund
+              <br />
+              Date posted: 3 Oct,2021
+              <br />
+              Contact: pradnyaclasses@gmail.com
             </Card.Text>
             <Button
               variant="primary"
@@ -40,19 +43,19 @@ const Shop = () => {
         </Card>
 
         <Card style={{ width: "18rem", borderWidth: 1, borderStyle: "solid" }}>
-          <Card.Img variant="top" src={IMG} style={{ width: "100%" }} />
+          <Card.Img variant="top" src={handcrafts} style={{ width: "100%" }} />
           <Card.Body style={{ textAlign: "center" }}>
-            <Card.Title style={{ color: "Red" }}>
-              Kashmiri HandCrafts
-            </Card.Title>
+            <Card.Title style={{ color: "Red" }}>Pune HandCrafts</Card.Title>
             <Card.Text>
-              Responsibilities: Design beautiful kashmir style HandCrafts
+              Responsibilities: Design beautiful Handcrafts
               <br />
-              Location: Bangalore
+              Timings: Afternoon,1-5
               <br />
-              Date posted: 1 Oct,2021
+              Location: Mumbai, Thane
               <br />
-              Contact: kashmirhandcrafts@gmail.com
+              Date posted: 4 Oct,2021
+              <br />
+              Contact: punehandcrafts@gmail.com
             </Card.Text>
             <Button
               variant="primary"
